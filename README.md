@@ -139,7 +139,7 @@ Route::get('/payment/error/{error_msg}', [PaymentController::class,'getErrorPage
 
 4- Setup Success URL & Failure URL
 
-Login to your fatora account [login](https://www.google.com)
+Login to your fatora account [login](https://app.fatora.io/login)
 choose `Integration` select `Settings`
 
 Success URL `http://localhost:8000/payment/success`
