@@ -1,0 +1,29 @@
+{
+    "name": "groupedesign/fatora",
+    "description": "Fatora payment gateway",
+    "homepage": "https://github.com/benbelgacemhichem/fatora-laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "benbelgacemhichem",
+            "email": "benbelgacemhichem@gmail.com",
+            "homepage": "https://github.com/benbelgacemhichem",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Groupedesign\\Fatora\\": "src/"
+        },
+        "files" : [
+			"src/PaymentHelper.php"
+		]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Groupedesign\\Fatora\\FatoraServiceProvider"
+            ]
+        }
+    }
+}
